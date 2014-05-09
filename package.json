@@ -1,0 +1,41 @@
+{
+  "name": "ffxiv-lodestone",
+  "version": "0.0.0",
+  "main": "lib/ffxiv-lodestone.js",
+  "description": "Get Character Data from the Final Fantasy XIV Lodestone",
+  "homepage": "https://github.com/dannyrscott/ffxiv-lodestone",
+  "bugs": "https://github.com/dannyrscott/ffxiv-lodestone/issues",
+  "author": {
+    "name": "Danny Scott",
+    "email": "dannyrscott@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyrscott/ffxiv-lodestone"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0",
+    "mocha": "^1.18.2",
+    "should": "^3.3.1",
+    "grunt-mocha-test": "^0.10.2",
+    "travis-cov": "^0.2.5"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "request": "^2.34.0",
+    "cheerio": "^0.16.0",
+    "bluebird": "^1.2.4"
+  }
+}
